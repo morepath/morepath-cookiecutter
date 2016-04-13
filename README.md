@@ -66,6 +66,7 @@ In the resulting directory you find the following files:
 * `./model.py`: Contains the models you are working with.
 * `./path.py`: Contains the paths pointing to the models.
 * `./view.py`: Contains the views associated with the models.
+* `./run.py`: Contains the run script for the test server.
 * `./tests/test_app.py`: Contains an example test.
 
 # License
