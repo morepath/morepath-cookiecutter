@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ cookiecutter.package_name }}</title>
+    </head>
+    <body>
+        <ul>
+            <li tal:repeat="greeting greetings"><a href="${request.link(greeting)}">${greeting.person}</a></li>
+        </ul>
+    </body>
+</html>

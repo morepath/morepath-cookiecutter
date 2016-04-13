@@ -1,5 +1,10 @@
 class Root(object):
-    pass
+    @property
+    def greetings(self):
+        return [
+            Greeting('mundo'),
+            Greeting('world')
+        ]
 
 
 class Greeting(object):
