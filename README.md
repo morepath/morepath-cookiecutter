@@ -62,11 +62,11 @@ If you require more advanced features, feel free to fork!
 
 In the resulting directory you find the following files:
 
-`./app.py`: Contains the Morepath application.
-`./model.py`: Contains the models you are working with.
-`./path.py`: Contains the paths pointing to the models.
-`./view.py`: Contains the views associated with the models.
-`./tests/test_app.py`: Contains an example test.
+* `./app.py`: Contains the Morepath application.
+* `./model.py`: Contains the models you are working with.
+* `./path.py`: Contains the paths pointing to the models.
+* `./view.py`: Contains the views associated with the models.
+* `./tests/test_app.py`: Contains an example test.
 
 # License
 
@@ -74,4 +74,5 @@ The Cookiecutter Template for Morepath is released into the public domain.
 
 # More Information
 
-https://github.com/audreyr/cookiecutter
+* https://morepath.readthedocs.org
+* https://github.com/audreyr/cookiecutter
