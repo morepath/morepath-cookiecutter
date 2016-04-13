@@ -19,15 +19,11 @@ To use this template, install the latest version of cookiecutter:
 
     pip install --upgrade cookiecutter
 
-You will also need Python 2.7 or 3.3+ and virtualenv.
+You will also need Python 2.7 or 3.3+ and [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
 # Usage
 
-To use install cookiecutter:
-
-    pip install cookiecutter
-
-And create a new package with the wizard:
+Create a new package with the wizard:
 
     cookiecutter https://github.com/morepath/morepath-cookiecutter
 
