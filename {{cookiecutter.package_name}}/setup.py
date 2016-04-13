@@ -21,8 +21,12 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
+        {% if 'REST' in cookiecutter.goal %}'morepath'
+        {%- endif -%}
+        {% if 'traditional' in cookiecutter.goal -%}
         'morepath',
-        {%- if 'traditional' in cookiecutter.goal %}'more.chameleon'{% endif %}
+        'more.chameleon',
+        {%- endif %}
     ],
     extras_require=dict(
         test=[
