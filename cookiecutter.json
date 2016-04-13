@@ -1,0 +1,7 @@
+{
+    "package_name": "helloworld",
+    "description": "A morepath helloworld application",
+    "goal": ["A RESTful application", "A traditional web application"],
+    "author": "",
+    "author_email": ""
+}
