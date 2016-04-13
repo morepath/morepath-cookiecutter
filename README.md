@@ -43,6 +43,9 @@ You can now run your application using the following command:
 
     bin/run-app
 
+Once the application is running you can open it in your browser under
+[http://localhost:5000](http://localhost:5000).
+
 There is also one example test included which you can run using:
 
     bin/py.test
