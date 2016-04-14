@@ -1,4 +1,4 @@
-# A Cookiecutter Template for Morepath
+¨# A Cookiecutter Template for Morepath
 
 A cookiecutter template to get started with [Morepath](https://morepath.readthedocs.org),
 based on the [organizing your project](http://morepath.readthedocs.org/en/latest/organizing_your_project.html)
@@ -32,23 +32,23 @@ Create a new package with the wizard:
 Inside the so created package create a virtualenv:
 
     cd my-package
-    virtualenv .
-    source bin/activate
+    virtualenv env
+    source env/bin/activate
 
 And install the package (including tests):
 
-    pip install -e '.[test]'
+    env/bin/pip install -e '.[test]'
 
 You can now run your application using the following command:
 
-    bin/run-app
+    env/bin/run-app
 
 Once the application is running you can open it in your browser under
 [http://localhost:5000](http://localhost:5000).
 
 There is also one example test included which you can run using:
 
-    bin/py.test
+    env/bin/py.test
 
 # Features
 
