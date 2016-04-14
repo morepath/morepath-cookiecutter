@@ -11,7 +11,7 @@ def view_root(self, request):
         'greetings': [
             {
                 'name': greeting.person,
-                'url': request.link(greeting)
+                '@id': request.link(greeting)
             }
             for greeting in self.greetings
         ]
