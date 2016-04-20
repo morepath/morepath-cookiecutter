@@ -1,4 +1,4 @@
-¨# A Cookiecutter Template for Morepath
+# A Cookiecutter Template for Morepath
 
 A cookiecutter template to get started with [Morepath](https://morepath.readthedocs.org),
 based on the [organizing your project](http://morepath.readthedocs.org/en/latest/organizing_your_project.html)
