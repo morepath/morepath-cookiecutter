@@ -15,7 +15,7 @@ setup(
     description=description,
     author='{{ cookiecutter.author }}',
     author_email='{{ cookiecutter.author_email }}',
-    packages=find_packages(exclude=['ez_setup']),
+    packages=find_packages(),
     namespace_packages=name.split('.')[:-1],
     include_package_data=True,
     zip_safe=False,
