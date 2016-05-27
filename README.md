@@ -31,7 +31,7 @@ Create a new package with the wizard:
 
 Inside the so created package create a virtualenv:
 
-    cd my-package
+    cd mypackage
     virtualenv env
     source env/bin/activate
 
@@ -39,9 +39,10 @@ And install the package (including tests):
 
     env/bin/pip install -e '.[test]'
 
-You can now run your application using the following command:
+You can now run your application using either of the following commands:
 
     env/bin/run-app
+    env/bin/python -m mypackage
 
 Once the application is running you can open it in your browser under
 [http://localhost:5000](http://localhost:5000).
@@ -66,7 +67,7 @@ In the resulting directory you find the following files:
 * `./model.py`: Contains the models you are working with.
 * `./path.py`: Contains the paths pointing to the models.
 * `./view.py`: Contains the views associated with the models.
-* `./run.py`: Contains the run script for the test server.
+* `./__main__.py`: Contains the run script for the test server.
 * `./tests/test_app.py`: Contains an example test.
 
 # License
