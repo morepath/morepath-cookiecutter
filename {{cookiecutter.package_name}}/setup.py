@@ -36,7 +36,7 @@ setup(
     ),
     entry_points=dict(
         console_scripts=[
-            'run-app = {{ cookiecutter.package_name }}.run:run',
+            'run-app = {{ cookiecutter.package_name }}.__main__:run',
         ],
     ),
     classifiers=[
