@@ -77,4 +77,4 @@ The Cookiecutter Template for Morepath is released into the public domain.
 # More Information
 
 * https://morepath.readthedocs.org
-* https://github.com/audreyr/cookiecutter
+* https://github.com/cookiecutter/cookiecutter
